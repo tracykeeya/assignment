@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url();
+
+}
+
+.background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: greenyellow;
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    background-image:url('images/image.png') ;
+}
+.about {
+    background-image: url('images/about-bg.jpg'); /* Replace with your image URL */
+}
+
+.contact {
+    background-image: url('images/contact-bg.jpg'); /* Replace with your image URL */
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Blog Page Slider */
+.slider {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    min-width: 100%;
+    height: 100vh;
+    transition: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(219, 24, 24);
+    background-size: cover;
+    background-position: center;
+}
+
+.slide1 {
+    background-image: url('images/leader.avif'); 
+}
+
+.slide2 {
+    background-image: url('images/premium.avif'); /* Replace with your image URL */
+}
+
+.slide3 {
+    background-image: url('images/personal.avif'); /* Replace with your image URL */
+}
+
+.slide4 {
+    background-image: url('images/ict.avif'); /* Replace with your image URL */
+}
+.body{
+    background-image: url(images/image.png);
+    background-position: center;
+    background-size: cover;
+    background-color: blue;
+}
